@@ -1,5 +1,5 @@
 """
-Clone of 2048 game.
+Clone of 2048 game. pull request test
 """
 
 import poc_2048_gui
