@@ -1,5 +1,5 @@
 """
-Clone of 2048 game. pull request test
+Clone of 2048 game.
 """
 
 import poc_2048_gui
@@ -20,7 +20,7 @@ OFFSETS = {UP: (1, 0),
 
 def merge(line):
     """
-    funktion used for merge hui
+    The function moves numbers to the edge of the list and merges identical numbers if they are adjacent. 
     """
     length = len(line)
     num = 0
@@ -62,7 +62,7 @@ class TwentyFortyEight:
         self.new_tile()
 
     def __str__(self):
-        return "hui"
+        return "info"
 
     def get_grid_height(self):
         return self.grid_height
